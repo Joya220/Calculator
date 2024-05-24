@@ -11,7 +11,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .calculator{
@@ -22,7 +22,7 @@
                       5px 5px 12px rgba(0 , 0 , 0, .16);
     display: grid;
     grid-template-columns: repeat(4,68px);                  
-                    
+    border: 1px solid rgb(207, 42, 199);                
 }
 
 input{
@@ -33,9 +33,9 @@ input{
     box-shadow: inset -5px -5px 12px #cb8dd1,
                 inset 5px 5px 12px rgba(0 , 0 , 0, .16);
     border: none;
-    border-radius: 50px;
+    border-radius: 20px;
     color: rgb(70, 70, 70);
-    font-size: 50px;
+    font-size: 30px;
     text-align: end;
     margin: auto;
     margin-top: 40px;
@@ -63,12 +63,20 @@ button{
                  5px 5px 12px rgba(0 , 0 , 0, .16);
 }
 
+.equal:hover{
+    background-color: violet;
+    box-shadow: 0 0 10px rgb(175, 53, 175) 0 0 10px rgb(175, 53, 175);
+}
 .sign{
     background-color: rgb(228, 42, 218);
     box-shadow: -5px -5px 12px #e4a4db,
                  5px 5px 12px rgba(0 , 0 , 0, .16);
 }
 
+.sign:hover{
+    background-color: rgb(241, 72, 137);
+}
 .dot{
     font-size: 25px;
+    background-color: #882780;
 }
