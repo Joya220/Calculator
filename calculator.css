@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(238, 200, 238);
     font-family: sans-serif;
     outline: none;
 }
@@ -15,10 +15,10 @@
 }
 
 .calculator{
-    background-color:rgb(14, 13, 13);
+    background-color:rgb(235, 223, 223);
     padding: 15px;
     border-radius: 30px;
-    box-shadow: inset 5px 5px 12px #313131,
+    box-shadow: inset 5px 5px 12px #c56abe,
                       5px 5px 12px rgba(0 , 0 , 0, .16);
     display: grid;
     grid-template-columns: repeat(4,68px);                  
@@ -29,12 +29,12 @@ input{
     grid-column: span 4;
     height: 70px;
     width: 260px;
-    background-color: rgb(31, 30, 31);
-    box-shadow: inset -5px -5px 12px #353435,
+    background-color: rgb(237, 199, 238);
+    box-shadow: inset -5px -5px 12px #cb8dd1,
                 inset 5px 5px 12px rgba(0 , 0 , 0, .16);
     border: none;
     border-radius: 50px;
-    color: whitesmoke;
+    color: rgb(70, 70, 70);
     font-size: 50px;
     text-align: end;
     margin: auto;
@@ -46,8 +46,8 @@ input{
 button{
     height: 48px;
     width: 48px;
-    background-color: rgb(76, 75, 77);
-    box-shadow: -5px -5px 12px #252325,
+    background-color: rgb(183, 102, 221);
+    box-shadow: -5px -5px 12px #e0a5e6,
                  5px 5px 12px rgba(0 , 0 , 0, .16);
     border: none;
     border-radius: 50%;
@@ -58,20 +58,17 @@ button{
 .equal{
     width: 115px;
     border-radius: 40px;
-    background-color: rgb(20, 67, 99);
-    box-shadow: -5px -5px 12px #011b2b,
+    background-color: rgb(97, 21, 97);
+    box-shadow: -5px -5px 12px #ca70bb,
                  5px 5px 12px rgba(0 , 0 , 0, .16);
 }
 
 .sign{
-    background-color: rgb(118, 154, 201);
-    box-shadow: -5px -5px 12px #052c31,
+    background-color: rgb(228, 42, 218);
+    box-shadow: -5px -5px 12px #e4a4db,
                  5px 5px 12px rgba(0 , 0 , 0, .16);
 }
 
 .dot{
     font-size: 25px;
-    background-color: #756bcf;
 }
-
-
